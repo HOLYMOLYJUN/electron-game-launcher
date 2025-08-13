@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  /* cprimary */
+  --color-cprimary-50: #edf7ed;
+  --color-cprimary-100: #c7e7c7;
+  --color-cprimary-200: #abdcac;
+  --color-cprimary-300: #85cc86;
+  --color-cprimary-400: #6dc26e;
+  --color-cprimary-500: #49b34a;
+  --color-cprimary-600: #42a343;
+  --color-cprimary-700: #347f35;
+  --color-cprimary-800: #286229;
+  --color-cprimary-900: #1f4b1f;
+
+  /* neutral */
+  --color-neutral-50: #e9e9e9;
+  --color-neutral-100: #bbbbbb;
+  --color-neutral-200: #9a9a9a;
+  --color-neutral-300: #6c6c6c;
+  --color-neutral-400: #414043;
+  --color-neutral-500: #2F2E30;
+  --color-neutral-600: #232324;
+  --color-neutral-700: #202021;
+  --color-neutral-800: #19191a;
+  --color-neutral-900: #0f0f0f;
+
+  /* warning */
+  --color-warning-50: #fbebeb;
+  --color-warning-100: #f3c1c2;
+  --color-warning-200: #eda3a4;
+  --color-warning-300: #e5787a;
+  --color-warning-400: #e05e61;
+  --color-warning-500: #d83639;
+  --color-warning-600: #c53134;
+  --color-warning-700: #992628;
+  --color-warning-800: #771e1f;
+  --color-warning-900: #5b1718;
+
+  /* platform (단일색) */
+  --color-platform-tistory: #EA5220;
+  --color-platform-naver: #03CF5D;
+  --color-platform-google: #F4923E;
+  --color-platform-wordpress: #9DACBA;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/fonts/PretendardVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* 커스텀 스크롤바 */
+* {
+  scrollbar-width: none;
+  scrollbar-color: #232324 #19191a;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #19191a;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #232324;
+  border-radius: 4px;
+  border: 1px solid #19191a;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #42a343;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #19191a;
+}

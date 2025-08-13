@@ -1,0 +1,9 @@
+
+#customTitleBar {
+  -webkit-app-region: drag;
+}
+
+#customTitleBar .window-controls button {
+  -webkit-app-region: no-drag;
+}
+
