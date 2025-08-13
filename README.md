@@ -18,28 +18,28 @@
 - 게임별 평점, 태그, 설명 제공
 - 무료 게임 다운로드 및 위시리스트 기능
 
-![스토어 화면](./screenshots/store.png)
+![스토어 화면](./screenshots/store.pngg)
 
 ### 📥 다운로드
 - 실시간 다운로드 진행률 및 속도 모니터링
 - 다운로드 일시정지/재시작/취소 기능
 - 다운로드 설정 및 대역폭 관리
 
-![다운로드 화면](./screenshots/download.png)
+![다운로드 화면](./screenshots/download.pngg)
 
 ### 👤 프로필
 - 게임 플레이 통계 및 업적 시스템
 - 최근 플레이한 게임 기록
 - 즐겨찾는 게임 순위
 
-![프로필 화면](./screenshots/profile.png)
+![프로필 화면](./screenshots/profile.pngg)
 
 ### ⚙️ 설정
 - 런처 및 게임 설정 관리
 - 테마 및 언어 설정
 - 보안 및 계정 관리
 
-![설정 화면](./screenshots/settings.png)
+![설정 화면](./screenshots/settings.pngg)
 
 ## 🚀 설치 및 실행
 
